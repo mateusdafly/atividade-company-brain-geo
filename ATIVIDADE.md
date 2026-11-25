@@ -126,4 +126,4 @@ Depois da entrega haverá uma conversa curta sobre o que você fez.
 
 ## Preparação
 
-Veja [`VIDEOS.md`](VIDEOS.md). Não precisa assistir tudo; a lista indica o que é essencial.
+Veja [`VIDEOS.md`](VIDEOS.md) antes do dia da atividade.
