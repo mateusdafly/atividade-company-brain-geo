@@ -10,7 +10,7 @@ Veja isso **antes** do dia da atividade. O tempo da atividade (3 a 4 horas) é p
 - Os vídeos estão listados com título e canal como aparecem no YouTube. A duração não foi conferida; confira antes de começar.
 - A maior parte está em inglês. Ligue a legenda se precisar.
 
-**Sugestão de carga:** os itens marcados com ⭐ somam por volta de 1h30 a 2h. O resto é opcional.
+**Sugestão de carga:** os itens marcados com ⭐ somam por volta de 2 horas. O resto é opcional. Os blocos 4, 5 e 6 são **por empresa**: veja só o da que você vai escolher.
 
 ---
 
@@ -45,11 +45,13 @@ Todos são de produtores de conteúdo de marketing. Veja **dois ou três** e par
 |  | [GEO & AI Visibility: How Buyers Find You in ChatGPT](https://www.youtube.com/watch?v=69-k9CvL2x4) | Digital Success - Digital Marketing Agency |
 |  | [How to Rank on ChatGPT and Claude, Generative Engine Optimization (GEO) Webinar](https://www.youtube.com/watch?v=ClT7JBQFJGA) | Digital Niche Agency |
 
-**Perguntas para fazer enquanto assiste:** o que o vídeo afirma como fato e qual a evidência? O que é só opinião do autor? Isso muda se o assunto for saúde ou finanças?
+**Perguntas para fazer enquanto assiste:** o que o vídeo afirma como fato e qual a evidência? O que é só opinião do autor? Isso muda conforme o tipo de empresa e de pergunta?
 
-## 4. O que é "Company Brain" / camada de contexto
+---
 
-Útil principalmente se você escolher a **Memorix**, mas o conceito de "base de contexto para IA" também ajuda a montar o seu próprio Brain.
+## 4. Se você escolher a Nekt: contexto para agentes, MCP e dados
+
+### 4.1 Contexto e "company brain"
 
 | | Vídeo | Canal | Observação |
 |---|---|---|---|
@@ -59,17 +61,47 @@ Todos são de produtores de conteúdo de marketing. Veja **dois ou três** e par
 |  | [What Is a Context Engine? Enterprise Context for AI Agents](https://www.youtube.com/watch?v=Muj37lb6Nx0) | Teradata | Vídeo de fornecedor. |
 |  | [Enterprise context layer on Snowflake: one shared memory for every AI agent](https://www.youtube.com/watch?v=pSS8OMWpsnE) | Maksim Krupenin | Mais técnico. |
 
-Cada fornecedor define "context layer" ou "company brain" de um jeito. **Comparar essas definições e notar onde divergem** vale mais do que decorar uma delas.
+Cada fornecedor define "context layer" de um jeito. **Comparar essas definições e notar onde divergem** vale mais do que decorar uma delas.
 
-## 5. Confiança, saúde e finanças (E-E-A-T e YMYL)
-
-Essencial se você escolher a **Cofrio** (finanças) ou a **Vireo** (saúde). O Google (e as IAs) são mais exigentes com temas que afetam dinheiro e saúde.
+### 4.2 MCP
 
 | | Vídeo | Canal |
 |---|---|---|
-| ⭐ | [What is Your Money or Your Life (YMYL) and does it matter to SEOs?](https://www.youtube.com/watch?v=bpYEabE9MnU) | Marie Haynes |
-|  | [An SEO Guide to Google E-E-A-T](https://www.youtube.com/watch?v=MYbgCwTHlxc) | Hurrdat |
-|  | [Google's E-E-A-T Update For Page Quality Rater Guideline](https://www.youtube.com/watch?v=FX9H-tejqqY) | Ramanpal Singh - Kwebby |
+| ⭐ | [MCP Explained Simply — What It Is and Why It Exists](https://www.youtube.com/watch?v=oblaHqULUHk) | TechWorld with Nana |
+|  | [What is MCP? Explained in 4 Minutes](https://www.youtube.com/watch?v=iyHPgxa1E6U) | TechPrep |
+|  | [Model Context Protocol Clearly Explained, MCP Beyond the Hype](https://www.youtube.com/watch?v=tzrwxLNHtRY) | codebasics |
+|  | [What is MCP? Model Context Protocol Explained](https://www.youtube.com/watch?v=AdODsQdGHz0) | pixegami |
+
+### 4.3 Dados (ETL e data warehouse)
+
+| | Vídeo | Canal |
+|---|---|---|
+|  | [ETL and Data Pipelines for Beginners: Extract, Transform, Load Explained!](https://www.youtube.com/watch?v=DyLQTzNlRUA) | CodeLucky |
+|  | [Difference Between ETL vs ELT Explained For Beginners](https://www.youtube.com/watch?v=cgAZTz5ZMmY) | Learn with Whiteboard |
+
+---
+
+## 5. Se você escolher a Purple Metrics: MMM
+
+| | Vídeo | Canal | Observação |
+|---|---|---|---|
+| ⭐ | [MARKETING MIX MODELING - Do Conceito ao Código!](https://www.youtube.com/watch?v=gfNDBMEwoQY) | Everton Henke - Growth Hacking | Em português. Tem parte de código; foque na parte de conceito. |
+
+**Há pouco vídeo bom de MMM para ver.** Compense com a leitura:
+
+- **[Packaging Up Media Mix Modeling: An Introduction to Robyn's Open-Source Approach](https://arxiv.org/abs/2403.14674)** (arXiv). Paper sobre o Robyn, ferramenta de código aberto da Meta. Explica adstock, saturação e calibração.
+- **[Meridian, documentação do Google](https://developers.google.com/meridian)**. A abordagem do Google, também de código aberto.
+
+Pergunta para guiar a leitura: **o que é incrementalidade**, e por que "atribuição por clique" e "MMM" respondem perguntas diferentes?
+
+---
+
+## 6. Se você escolher a Visio: operação de lojas e visão computacional
+
+Não há vídeo que eu recomende com segurança para este tema. Use a leitura e a prática:
+
+- Leia a página **[About da Visio](https://visio.ai/about)** com lápis na mão: separe o que é **fato** do que é **tese de venda**.
+- Procure, por conta própria, **como operadores de franquia e food service medem CMV, perda e produtividade**, e **o que a imprensa e fontes independentes dizem** sobre câmeras e IA em loja (inclusive o lado de privacidade e lei de proteção de dados).
 
 ---
 
@@ -80,14 +112,16 @@ Mais importantes que qualquer vídeo da lista.
 - ⭐ **[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)** (artigo acadêmico, arXiv). O paper que deu nome à área. Leia o resumo e a seção sobre as técnicas testadas. Pergunta: em que tipo de pergunta cada técnica funcionou melhor?
 - ⭐ **[Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)** (Google Search Central). A posição oficial do Google sobre conteúdo útil.
 - **[AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)** (Google Search Central). Como o Google trata o conteúdo do seu site nos recursos de IA da busca.
+- **[Model Context Protocol](https://modelcontextprotocol.io)**. Documentação oficial. Útil se você escolher a Nekt ou a Visio (que também fala em MCP).
 - **[Company Brain conecta o contexto do negócio à inteligência artificial](https://startups.com.br/branded-content/company-brain-conecta-o-contexto-do-negocio-a-inteligencia-artificial/)** (startups.com.br). É **conteúdo de marca** de uma fornecedora brasileira, não matéria neutra. Leia como fonte de vocabulário e depois confronte com outras.
 
 ## Para praticar sozinho
 
-Pergunte a duas IAs diferentes (por exemplo, ChatGPT e Perplexity) algo como "qual a melhor conta digital para MEI?" ou "quanto tempo dura um implante dentário?". Observe:
+Pergunte a duas IAs diferentes (por exemplo, ChatGPT e Perplexity) algo sobre a categoria da empresa que você escolheu, por exemplo "o que é uma plataforma de contexto para agentes de IA?", "o que é MMM e quando vale a pena?" ou "como reduzir CMV em uma rede de lanchonetes?". Observe:
 
-- Que fontes elas citam e que **tipo de página** é citada (blog de empresa, notícia, órgão oficial, fórum)?
+- Que fontes elas citam e que **tipo de página** é citada (blog de empresa, notícia, documentação, órgão oficial, fórum)?
 - A resposta começa direto ou enrola?
 - Quais marcas aparecem, e em que ordem?
+- **A empresa que você escolheu aparece?** Se aparece, o que dizem dela e está certo? Se não aparece, quem aparece no lugar?
 
 Isso vale mais do que mais uma hora de vídeo.

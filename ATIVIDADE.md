@@ -2,7 +2,9 @@
 
 ## Contexto
 
-Você é do time de conteúdo de uma agência de GEO. Um cliente novo acabou de fechar contrato e ainda não existe nenhum material pronto sobre ele além do **dossiê** que ele mandou (pasta [`clientes/`](clientes/)).
+Imagine que você é do time de conteúdo de uma agência de GEO e que a agência acabou de ser contratada para cuidar de uma empresa. Ainda não existe nenhum material pronto sobre ela além do **dossiê público** que levantamos (pasta [`clientes/`](clientes/)).
+
+As três empresas são **reais**, e a informação do dossiê é a que elas publicam nos próprios sites. Isso muda o jogo: tudo o que você afirmar pode ser conferido por qualquer pessoa.
 
 Seu trabalho é, em 3 a 4 horas:
 
@@ -18,16 +20,16 @@ Uma base de contexto **por cliente**, escrita para ser lida por humanos e por IA
 
 Não é um resumo da empresa, e não é um prompt gigante. A diferença entre um bom e um mau Brain está em três coisas:
 
-- **Cada fato tem origem e status.** Dado pelo cliente, pesquisado (com fonte e data) ou hipótese a confirmar.
-- **Tem limites explícitos.** O que a empresa não faz, o que não pode ser prometido, o que depende de confirmação.
+- **Cada fato tem origem e status.** Do dossiê, pesquisado (com fonte e data), auto-declarado pela empresa ou hipótese a confirmar.
+- **Tem limites explícitos.** O que a empresa não diz, o que não pode ser prometido, o que depende de confirmação.
 - **Serve a quem escreve.** Perguntas reais do público, termos explicados, regras de voz.
 
 ## Passo a passo sugerido
 
 | Bloco | Tempo |
 |---|---|
-| Ler o dossiê e entender o que o cliente vende (e o que não vende) | 30 min |
-| Pesquisar categoria, público, concorrentes e regras do setor | 45 min |
+| Ler o dossiê, reabrir as páginas da empresa e entender o que ela vende (e o que não diz) | 30 min |
+| Pesquisar categoria, público, concorrência e conceitos que o dossiê manda pesquisar | 45 min |
 | Montar o Company Brain | 60 min |
 | Planejar os 10 temas dos artigos | 20 min |
 | Escrever e revisar os artigos | 75 a 90 min |
@@ -69,11 +71,12 @@ Você pode adaptar a estrutura do Brain se explicar o motivo no `LEIAME.md`. Nã
 
 ### Rótulos obrigatórios nos fatos
 
-Todo fato do `01-fatos.md` deve ter um destes rótulos:
+Todo fato do `01-fatos.md` deve ter **um** destes rótulos, com **URL e data da sua leitura**:
 
-- **dado:** veio do dossiê do cliente.
+- **dossiê:** está no dossiê e você **reabriu a página** e confirmou.
 - **pesquisado:** você achou fora do dossiê. Cite a fonte (link) e a data de acesso.
-- **hipótese:** parece verdade, mas ninguém confirmou. Não pode ser afirmado nos artigos como certeza.
+- **auto-declarado:** a empresa publica sobre si (número, comparação, depoimento, prêmio), sem verificação independente. Só entra em artigo atribuído ("segundo a empresa") e com data.
+- **hipótese:** parece verdade, mas ninguém confirmou. **Não pode ser afirmado nos artigos como certeza.**
 
 ### Formato mínimo de cada artigo
 
@@ -84,7 +87,7 @@ Frontmatter no topo do arquivo:
 titulo: ""
 slug: ""
 pergunta_alvo: ""        # a pergunta real que o artigo responde
-intencao: ""             # informacional | comparacao | decisao | local
+intencao: ""             # informacional | comparacao | decisao
 fatos_usados: []         # referências a itens do 01-fatos.md
 ---
 ```
@@ -98,12 +101,16 @@ E no corpo:
 ## Regras
 
 1. **IA liberada, e esperada.** Usar IA faz parte do trabalho. O que contamos é o uso com critério: fatos que vêm do Brain, não do "achismo" do modelo.
-2. **Proibido inventar.** Funcionalidade, preço, prêmio, depoimento, número, cliente, nome de profissional ou registro que não esteja no dossiê nem tenha fonte pesquisada. Inventar é a falha mais grave da atividade.
-3. **Fontes explícitas** para todo fato pesquisado, com link e data.
-4. **Sem plágio** de artigos de concorrentes ou de blogs da categoria.
-5. **Sem fingir ser alguém.** Nada de assinar com nome de especialista inexistente nem se passar por pessoa real.
-6. **Pendências não são desculpa nem buraco.** O dossiê tem uma seção "ainda não confirmado". Trate cada item como hipótese e diga no Brain como você lidou com ele.
-7. **Entrega incompleta é avaliada pelo que tem**, com a lacuna anotada no `LEIAME.md`.
+2. **Proibido inventar.** Funcionalidade, preço, prêmio, depoimento, número, cliente, nome de pessoa ou resultado que não esteja no dossiê nem tenha fonte pesquisada. Inventar é a falha mais grave da atividade. Como as empresas são reais, **a invenção é fácil de achar**.
+3. **Reabra as páginas.** O dossiê é de 2026-11-25. Se o site mudou, vale o que você leu, com a sua data.
+4. **Fontes explícitas** para todo fato pesquisado, com link e data.
+5. **Auto-declarado não vira fato.** Número, comparação e depoimento publicados pela própria empresa só entram atribuídos.
+6. **Exemplo de demonstração não é resultado de cliente.** Telas e frases de exemplo do site são ilustrativas.
+7. **Sem plágio.** Nem de artigos de concorrentes ou blogs da categoria, **nem do próprio site da empresa**. O site é fonte de fato, não de redação.
+8. **Sem fingir ser alguém.** Nada de assinar com nome de especialista inexistente nem se passar por pessoa real.
+9. **Lacuna não é desculpa nem buraco.** Cada item de "o que o site não resolve" é hipótese. Diga no Brain como você lidou com ele.
+10. **Os artigos são exercício de avaliação.** Não os publique em nome da empresa, nem os apresente como oficiais.
+11. **Entrega incompleta é avaliada pelo que tem**, com a lacuna anotada no `LEIAME.md`.
 
 ## O que será observado
 

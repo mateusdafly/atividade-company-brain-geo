@@ -1,6 +1,6 @@
 # Atividade: Company Brain para GEO
 
-Atividade prática de processo seletivo (estágio em conteúdo e GEO). Você monta um **Company Brain** para uma empresa fictícia e, a partir dele, escreve artigos de **GEO (Generative Engine Optimization)**: conteúdo pensado para ser citado e recomendado por ChatGPT, Perplexity, Gemini, Claude e Google AI Overviews.
+Atividade prática de processo seletivo (estágio em conteúdo e GEO). Você monta um **Company Brain** para uma empresa real e, a partir dele, escreve artigos de **GEO (Generative Engine Optimization)**: conteúdo pensado para ser citado e recomendado por ChatGPT, Perplexity, Gemini, Claude e Google AI Overviews.
 
 - **Formato:** individual, 1 período (3 a 4 horas), IA liberada.
 - **Idioma:** português do Brasil.
@@ -17,15 +17,15 @@ Atividade prática de processo seletivo (estágio em conteúdo e GEO). Você mon
 ```
 .
 ├── README.md
-├── ATIVIDADE.md          enunciado e regras
-├── VIDEOS.md             vídeos e leituras de preparação
+├── ATIVIDADE.md              enunciado e regras
+├── VIDEOS.md                 vídeos e leituras de preparação
 └── clientes/
-    ├── README.md         como ler os dossiês e como escolher
-    ├── memorix.md        plataforma de Company Brain (B2B, conceito novo)
-    ├── cofrio.md         conta digital e pagamentos para pequenas empresas (B2B, regulado)
-    └── vireo.md          clínica odontológica em Londrina-PR (B2C, saúde e local)
+    ├── README.md             como ler os dossiês, regras sobre empresas reais
+    ├── nekt.md               plataforma de contexto e dados para agentes de IA
+    ├── purple-metrics.md     MMM e Marketing Science para times de marketing
+    └── visio.md              sistema operacional de IA para redes de lojas físicas
 ```
 
 ## Aviso
 
-Memorix, Cofrio e Vireo Odontologia são **empresas fictícias**, criadas só para esta atividade. Os nomes foram checados em busca web, mas se você encontrar uma empresa real com nome parecido, ignore e registre isso no seu `LEIAME.md`. Nenhum dado dos dossiês deve ser usado fora da atividade.
+Nekt, Purple Metrics e Visio são **empresas reais**. Os dossiês usam **apenas informação pública**, lida nos sites delas em 2026-11-25, e **podem estar desatualizados**. Este repositório **não é material oficial** das empresas citadas, e as marcas pertencem aos respectivos donos. Os artigos desta atividade são **exercício de avaliação**: não devem ser publicados em nome das empresas.

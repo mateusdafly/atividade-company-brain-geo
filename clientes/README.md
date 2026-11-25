@@ -1,36 +1,41 @@
 # As três empresas
 
-Escolha **uma**. Cada dossiê foi escrito como o cliente escreveria para a agência no primeiro dia: com o que ele sabe, o que ele quer, o que ele proíbe e o que ainda não confirmou.
+Escolha **uma**. São **empresas reais**. Cada dossiê foi montado só com o que a empresa publica nas próprias páginas, lido em **2026-11-25**, com a URL de cada página no fim do arquivo.
 
-| | [Memorix](memorix.md) | [Cofrio](cofrio.md) | [Vireo Odontologia](vireo.md) |
+| | [Nekt](nekt.md) | [Purple Metrics](purple-metrics.md) | [Visio](visio.md) |
 |---|---|---|---|
-| **O que vende** | Plataforma de Company Brain para empresas | Conta digital e cobrança para pequenas empresas | Implante dentário e ortodontia |
-| **Quem compra** | Empresas de 50 a 500 pessoas (operações, RevOps, CS, TI) | Donos de MEI e pequenas empresas, e o contador deles | Adultos (e pais) de Londrina-PR |
-| **Tipo de busca** | Conceito novo, comparação, decisão técnica | Dúvida prática, comparação de tarifa, decisão | Dúvida de saúde, medo, preço, busca local |
-| **Onde a dificuldade está** | Explicar uma categoria que ainda não tem definição fixa, sem inventar funcionalidade | Falar de dinheiro e regulação sem errar nem prometer | Falar de saúde e de local, dentro das regras de publicidade da área |
-| **Risco de erro** | Atribuir à empresa algo que ela não faz; comparar com produtos reais sem conferir | Afirmar tarifa, limite ou garantia que não existe | Prometer resultado, citar preço ou profissional que não consta |
+| **O que vende** | Plataforma de contexto e dados para agentes de IA | MMM e parceria de Marketing Science para times de marketing | Sistema operacional de IA para redes de lojas físicas |
+| **Quem compra** | Times de dados, RevOps, marketing e CS | Líderes e times de marketing | Franqueados e operadores multiunidade |
+| **Conceito difícil** | "Plataforma de contexto", MCP, context graph | MMM, incrementalidade, halo, saturação | "Sistema operacional" de varejo, visão computacional na loja |
+| **Preço público** | Sim, "a partir de" | Não | Só em créditos, sem valor em dinheiro |
+| **Onde o erro mora** | Comparar com ferramentas reais sem conferir; tomar demonstração por resultado | Repetir comparação que a própria empresa faz contra "todo o resto"; tomar exemplo por resultado | Repetir número de marketing sem condição ("93% EBITDA margin uplift"); confundir com o Microsoft Visio |
+| **Idioma do site** | Português e inglês | Português e inglês | Inglês, português e espanhol |
 
 ## Como ler um dossiê
 
-Cada um tem as mesmas seções:
+Todos têm as mesmas seções:
 
-1. **Em uma frase**
-2. **A empresa:** o básico.
-3. **O que vende:** produto, planos e valores.
-4. **O que a empresa não é e não faz:** os limites. Leia duas vezes.
-5. **Para quem vende**
-6. **Concorrência que o cliente cita:** nomes que ele mencionou, não uma análise.
-7. **O que o cliente quer da agência**
-8. **Regras do cliente:** o que ele proíbe e como quer soar.
-9. **Ainda não confirmado:** pendências. **Cada item é hipótese**, não fato.
-10. **O que você precisa pesquisar:** onde o dossiê não chega.
+1. **Em uma frase** e **como a empresa se descreve** (muitas vezes, de mais de um jeito).
+2. **O que faz**, segundo o próprio site.
+3. **Planos e preços públicos**, com a data da leitura.
+4. **Para quem vende.**
+5. **O que a empresa afirma sobre si (auto-declarado):** números, comparações e exemplos que **são dela**, com o cuidado que cada um pede.
+6. **Cuidado com a identidade:** homônimos e confusões.
+7. **O que o site não resolve:** lacunas. **Cada item é hipótese** até você achar fonte.
+8. **O que você precisa pesquisar.**
+9. **Fontes lidas.**
+
+## Regras sobre usar empresas reais
+
+- **Os dossiês não são a verdade, são o ponto de partida.** Reabra cada página e compare com o que está lá hoje. Se algo mudou, vale o que você leu, com a sua data.
+- **Auto-declarado não é verificado.** Número, comparação e depoimento que a empresa publica sobre si só entram em artigo como "segundo a empresa", com data.
+- **Exemplo de demonstração não é resultado de cliente.** Telas de produto com valores e nomes de exemplo são ilustrativas.
+- **Copiar texto do site da empresa também é plágio.** O site é fonte de fato, não de redação.
+- **Não use nem repita nome de pessoa, de cliente ou de concorrente sem fonte própria.**
+- **Os artigos desta atividade são exercício de avaliação.** Não os publique em nome da empresa, nem os apresente como oficiais.
 
 ## Dicas para escolher
 
-- Não escolha pelo que parece mais fácil. Escolha por onde você acha que consegue **pesquisar melhor** em 45 minutos.
-- A Memorix é a mais abstrata: exige entender uma categoria nova. A Cofrio e a Vireo exigem cuidado com regras externas (do Banco Central e dos conselhos de odontologia, respectivamente), que você terá de ir buscar.
-- Todas as três têm pontos em que o dossiê **não alcança**. Isso é de propósito.
-
-## Sobre os dados
-
-Tudo aqui é fictício: empresa, números, preços, datas e quantidades. Os **fatos do setor** (como funciona um Pix, o que é RAG, as regras de um conselho profissional) são reais e **não estão** nos dossiês: é você quem pesquisa.
+- Escolha pela empresa em que você acha que consegue **pesquisar melhor** em 45 minutos, e não pela que parece mais fácil.
+- A **Nekt** exige entender dados e agentes de IA. A **Purple Metrics** exige entender medição de marketing. A **Visio** exige entender operação de lojas e o que se pode (e não se pode) afirmar sobre IA em loja.
+- Os três têm pontos em que o site **não alcança**. Isso é de propósito.
