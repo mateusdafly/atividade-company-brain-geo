@@ -6,119 +6,105 @@ Os vídeos daqui são só sobre **três coisas**: o que é um **Company Brain**,
 
 ## Leia isto primeiro
 
-- Os itens marcados com ⭐ são os essenciais. Somam **cerca de 1h55**. O resto é opcional.
+- **⭐ = essencial.** **✔ = a transcrição foi lida e a descrição abaixo diz o que o vídeo realmente traz.** Vídeo sem ✔ ainda não foi conferido: a descrição vem só do título e do resumo.
+- Os ⭐ somam **cerca de 1h20**. O resto é opcional.
 - A **duração** de cada vídeo foi conferida em 2026-11-25. Título e canal são os que aparecem no YouTube.
-- **Nenhum desses vídeos é o gabarito.** Muitos são de agências e fornecedores, com tom promocional e pouca evidência. Pegue vocabulário e método, e confronte com as fontes primárias da seção "Leituras" no fim.
+- **Nenhum desses vídeos é o gabarito.** Vários são de agências e fornecedores, com tom promocional. Alguns são, em parte, demonstração de uma ferramenta paga. Pegue vocabulário e método, e confronte com as fontes primárias da seção "Leituras" no fim.
 - Vários vídeos de Company Brain usam o **Claude** como exemplo. O método (arquivos de contexto organizados) funciona com qualquer IA.
-- A maior parte está em inglês. Ligue a legenda se precisar.
-- Não assisti a todos do início ao fim: as descrições abaixo vêm do título e do resumo do vídeo. Se algum não valer o tempo, pule e diga no seu `LEIAME.md`.
+- **A maior parte está em inglês.** Ligue a legenda. Só dois vídeos da lista são em português (o de RAG e o "Company Brain EXPLICADO").
 
 ## Como a lista se encaixa na atividade
 
 | O que você vai fazer | Onde se prepara |
 |---|---|
 | Entender o que é um **Company Brain** e montar o seu | Blocos 2 e 3 |
-| Dar **contexto certo** à IA para ela escrever sem inventar | Bloco 4 |
+| Entender como a IA usa o contexto que você dá | Bloco 4 (opcional) |
 | Entender **GEO** | Bloco 5 |
 | Escrever os **10 artigos** | Bloco 6 |
-| Montar o **mapa de perguntas** do público | Bloco 7 |
-| Definir **voz e regras** | Bloco 8 |
+| Montar o **mapa de perguntas**, a **voz** e as **regras** | Bloco 7 |
 
 ---
 
-## 1. Base mínima: como a IA "sabe" e "cita" (opcional, se faltar o básico)
+## 1. Base mínima: como a IA "sabe" e "cita" (pule se já souber)
 
-| | Vídeo | Canal | Duração |
-|---|---|---|---|
-| ⭐ | [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs) | 3Blue1Brown | 7:58 |
-| ⭐ | [O que é RAG - Dicionário IA](https://www.youtube.com/watch?v=xWe3adsDfVk) (em português) | NoCode StartUp | 6:07 |
-|  | [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) | Andrej Karpathy | 59:48 |
-
-Se você já sabe como uma IA gera uma resposta e como ela busca e cita fontes, pule este bloco.
+| | Vídeo | Canal | Duração | O que traz |
+|---|---|---|---|---|
+| ⭐✔ | [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs) | 3Blue1Brown | 7:58 | Explica com clareza que um modelo de linguagem **prevê a próxima palavra** e por que a resposta muda a cada vez. Não fala de busca nem de citação de fontes. |
+| ✔ | [O que é RAG - Dicionário IA](https://www.youtube.com/watch?v=xWe3adsDfVk) (em português) | NoCode StartUp | 6:07 | A analogia da "estante de livros" nos primeiros minutos ajuda. **O resto é, em boa parte, divulgação da comunidade do canal.** Cuidado: o vídeo diz "treinar" o agente com seus documentos, mas **RAG não treina o modelo**: ele busca trechos dos documentos na hora e os entrega ao modelo para responder. |
+|  | [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) | Andrej Karpathy | 59:48 | Visão longa e completa. Opcional. |
 
 ## 2. O que é um Company Brain
 
-| | Vídeo | Canal | Duração | Observação |
+| | Vídeo | Canal | Duração | O que traz |
 |---|---|---|---|---|
-| ⭐ | [Company Brain EXPLICADO](https://www.youtube.com/watch?v=1Wq1mJ-PAeQ) (em português) | Pelado Nerd | 13:04 | O conceito, em português. |
-| ⭐ | [Intro: Build a Company Brain Every AI Can Use](https://www.youtube.com/watch?v=ui1wN4du8K4) | Darby Rollins, Gen AI University | 9:10 | Pela descrição, é a ideia de um Brain feito de **arquivos em markdown numa pasta**, que qualquer IA consegue ler. É exatamente o formato que você vai entregar. |
+| ⭐ | [Company Brain EXPLICADO](https://www.youtube.com/watch?v=1Wq1mJ-PAeQ) (em português) | Pelado Nerd | 13:04 | Pelo título: o conceito, em português. |
+| ⭐ | [Intro: Build a Company Brain Every AI Can Use](https://www.youtube.com/watch?v=ui1wN4du8K4) | Darby Rollins, Gen AI University | 9:10 | Pela descrição, a ideia de um Brain feito de **arquivos em markdown numa pasta**, que qualquer IA consegue ler. É o formato que você vai entregar. |
 |  | [How to Build An AI Brain For Your Company](https://www.youtube.com/watch?v=lOjZT82t0JA) | Ash Behrens | 18:28 | Pela descrição, usa o padrão "raw, wiki, schema" atribuído a Andrej Karpathy. |
 |  | [Building a Shared Company Brain for Humans, Agents, and Workflows](https://www.youtube.com/watch?v=q0v0eplAeYA) | Box | 2:14 | Vídeo de fornecedor. Curto; serve para ver como uma empresa vende o conceito. |
 |  | [Build a Company Brain: Unlock Hidden Knowledge with AI](https://www.youtube.com/watch?v=QbLrXMbRSCY) | Open eLMS | 5:21 | Vídeo de fornecedor. |
 
-**O que observar:** cada autor define "Company Brain" de um jeito. Anote **onde as definições divergem**. Isso vale mais do que decorar uma delas, e você vai precisar escolher uma definição para o seu `00-visao-geral.md`.
+**O que observar:** cada autor define "Company Brain" de um jeito. Anote **onde as definições divergem**. Você vai precisar escolher uma definição para o seu `00-visao-geral.md`.
 
 ## 3. Como montar o seu (a parte prática)
 
-Aqui estão os vídeos mais próximos do que você vai fazer: transformar conhecimento em **arquivos de contexto** que uma IA usa.
+Os vídeos mais próximos do que você vai fazer: transformar conhecimento em **arquivos de contexto** que uma IA usa.
 
-| | Vídeo | Canal | Duração | Observação |
+| | Vídeo | Canal | Duração | O que traz |
 |---|---|---|---|---|
-| ⭐ | [How to setup a business brain (powered by Claude)](https://www.youtube.com/watch?v=7-yAe5Tzn0U) | Brian Casel | 19:09 | Passo a passo de montagem de um "cérebro" para um negócio. |
+| ⭐ | [How to setup a business brain (powered by Claude)](https://www.youtube.com/watch?v=7-yAe5Tzn0U) | Brian Casel | 19:09 | Pelo título: passo a passo de montagem de um "cérebro" para um negócio. |
 |  | [Build Your Second Brain With Claude Code, Karpathy's Method](https://www.youtube.com/watch?v=lnsExa1UbnM) | AI for Work | 15:17 | Pela descrição, um "cérebro" local só de arquivos em markdown. Ferramentas mais técnicas, mas a organização das pastas vale. |
-|  | [5. Context Files: How to Teach Claude the Way You Work](https://www.youtube.com/watch?v=PjKsrBRwu7g) | Axon Perform | 4:20 | Arquivos de contexto que dizem à IA quem você é e como trabalha. Curto. |
+|  | [5. Context Files: How to Teach Claude the Way You Work](https://www.youtube.com/watch?v=PjKsrBRwu7g) | Axon Perform | 4:20 | Arquivos de contexto que dizem à IA quem você é e como trabalha. |
 
-**O que observar:** como o autor **divide o conhecimento em arquivos** (um assunto por arquivo?), **como separa fato de opinião**, e **o que ele deixa de fora**.
+**O que observar:** como o autor **divide o conhecimento em arquivos**, **como separa fato de opinião**, e **o que ele deixa de fora**.
 
-## 4. Contexto em vez de "prompt perfeito"
+## 4. Dar contexto à IA (opcional)
 
-Um Company Brain é, no fundo, **engenharia de contexto**: decidir o que a IA lê antes de escrever. Isso explica por que o Brain vem antes dos artigos.
-
-| | Vídeo | Canal | Duração |
-|---|---|---|---|
-| ⭐ | [Context Engineering Clearly Explained](https://www.youtube.com/watch?v=jLuwLJBQkIs) | Tina Huang | 12:48 |
-|  | [Context Engineering Explained: Beyond Prompts & RAG](https://www.youtube.com/watch?v=iu3CD_E-kUY) | Tim TEN | 10:09 |
-|  | [Context Engineering Explained in Just 10 min](https://www.youtube.com/watch?v=523PQmw6_3k) | Analytics Camp | 10:45 |
-|  | [Context Engineering Explained: Why More Context Doesn't Mean Better AI](https://www.youtube.com/watch?v=D9vE-9mSUaw) | MLTut | 17:03 |
-
-**O que observar:** o último vídeo defende que **mais contexto não é melhor**. Isso conta para o seu Brain: um Brain gigante e cheio de informação irrelevante piora os artigos.
+| | Vídeo | Canal | Duração | O que traz |
+|---|---|---|---|---|
+| ✔ | [Context Engineering Clearly Explained](https://www.youtube.com/watch?v=jLuwLJBQkIs) | Tina Huang | 12:48 | A ideia central: dar à IA **"a informação certa, no formato certo, na hora certa"**. **Mas o vídeo é sobre construir agentes de IA** (prompts de sistema, ferramentas, memória), com um trecho patrocinado, e isso está longe do que você vai fazer. Aproveite a definição e as quatro estratégias do final (**escrever, selecionar, comprimir e isolar** contexto). |
 
 ## 5. O que é GEO
 
-Todos são de produtores de conteúdo de marketing. Veja **dois ou três** e pare: eles repetem a mesma coisa. Depois leia o paper da seção "Leituras".
-
-| | Vídeo | Canal | Duração |
-|---|---|---|---|
-| ⭐ | [GEO, AEO e SEO na Prática: Faça Sua Marca Aparecer no ChatGPT, Gemini e Claude](https://www.youtube.com/watch?v=o4RCOXExFSg) (em português) | Ariel Alexandre - AI builder | 14:07 |
-| ⭐ | [What Is GEO? Generative Engine Optimization Explained (2026): 5 Key Principles](https://www.youtube.com/watch?v=Oq7qV4_5W-A) | Alex Moreau, AI for Ads & SEO-GEO | 7:03 |
-|  | [What Is Generative Engine Optimization (GEO)? A Beginner's Guide](https://www.youtube.com/watch?v=p0pf2M1t5xI) | Found in AI Podcast, Cassie Clark Marketing | 12:09 |
-|  | [Generative Engine Optimization (GEO) Explained](https://www.youtube.com/watch?v=5F0_IFIVeWs) | Howseen AI | 1:56 |
-
-**Perguntas para fazer enquanto assiste:** o que o vídeo afirma como fato e qual a evidência? O que é só opinião do autor? O que muda se a empresa for B2B de tecnologia, em vez de varejo ou saúde?
+| | Vídeo | Canal | Duração | O que traz |
+|---|---|---|---|---|
+| ⭐✔ | [What Is GEO? Generative Engine Optimization Explained (2026): 5 Key Principles](https://www.youtube.com/watch?v=Oq7qV4_5W-A) | Alex Moreau, AI for Ads & SEO-GEO | 7:03 | **Em parte é demonstração de uma ferramenta (Ryze), com link na descrição.** Mesmo assim traz uma checklist com fontes: medir onde as IAs **nomeiam** a sua marca, **responder primeiro e com números**, dizer algo que só você pode dizer, deixar os robôs de busca entrarem (robots.txt) e atualizar as páginas. |
+|  | [What Is Generative Engine Optimization (GEO)? A Beginner's Guide](https://www.youtube.com/watch?v=p0pf2M1t5xI) | Found in AI Podcast, Cassie Clark Marketing | 12:09 | Não conferido. |
+|  | [Generative Engine Optimization (GEO) Explained](https://www.youtube.com/watch?v=5F0_IFIVeWs) | Howseen AI | 1:56 | Não conferido. |
 
 ## 6. Como escrever um artigo de GEO
 
 É a parte que mais pesa nos seus 10 artigos.
 
-| | Vídeo | Canal | Duração | Observação |
+| | Vídeo | Canal | Duração | O que traz |
 |---|---|---|---|---|
-| ⭐ | [How to Get Your Brand Cited by ChatGPT - The GEO Playbook That Actually Works](https://www.youtube.com/watch?v=3wpzzM9DiT0) | Anand Iyer | 16:58 | Método geral. |
-| ⭐ | [AEO/GEO Citation Game Plan in 2026 – Pillar 2: Structured Content for AI Search Visibility](https://www.youtube.com/watch?v=lA8Jo3yIfkk) | Kevin C. Roy, GreenBananaSEO | 4:19 | Estrutura de conteúdo para ser lido e citado por IA. |
-|  | [GEO Checklist: 5 Rules to Get Your Business Cited in AI Answers](https://www.youtube.com/watch?v=X7TqNxVjW-4) | WKND | 9:40 | Checklist. |
-|  | [How to Get Cited by Perplexity AI: Optimizing for AI Search (GEO Course)](https://www.youtube.com/watch?v=_R47uiMef7Y) | FreeAcademy AI | 7:33 | Foco em um mecanismo de busca por IA. |
-|  | [Optimize Existing Blog Posts for GEO (Without Rewriting Everything)](https://www.youtube.com/watch?v=iypzmWZf2yU) | Rebecca Grace Designs | 19:46 | Para o caso de atualizar artigo antigo. |
-|  | [How to do GEO as a Beginner (full AI SEO Course)](https://www.youtube.com/watch?v=dXhUg9Eu0xM) | Vasco's SEO Tips | 17:27 | Curso introdutório. |
+| ⭐✔ | [How to Get Your Brand Cited by ChatGPT - The GEO Playbook That Actually Works](https://www.youtube.com/watch?v=3wpzzM9DiT0) | Anand Iyer | 16:58 | O mais completo da lista. Plano de 7 passos: teste manual de perguntas, acesso dos robôs, **resposta primeiro e títulos em forma de pergunta**, **densidade de fatos** (dados com fonte no lugar de adjetivos), clareza da marca em vários sites, e atualização frequente. **Atenção: quase todas as estatísticas dele são ditas sem fonte** (ex.: "94% dos compradores B2B usam IA", "tabelas rendem 4x mais citações", "conteúdo com mais de 13 semanas deixa de ser citado"). Trate cada número como **auto-declarado**. |
+| ⭐✔ | [AEO/GEO Citation Game Plan in 2026 – Pillar 2: Structured Content for AI Search Visibility](https://www.youtube.com/watch?v=lA8Jo3yIfkk) | Kevin C. Roy, GreenBananaSEO | 4:19 | Curto e prático. Estrutura de página em **três blocos**: **resposta** (nas 2 a 5 primeiras frases), **prova** (listas, tabelas, perguntas e respostas) e **caminho** (as perguntas seguintes, tiradas de "as pessoas também perguntam"). É parte 2 de 4 de uma série. |
+|  | [GEO Checklist: 5 Rules to Get Your Business Cited in AI Answers](https://www.youtube.com/watch?v=X7TqNxVjW-4) | WKND | 9:40 | Não conferido. |
+|  | [How to Get Cited by Perplexity AI: Optimizing for AI Search (GEO Course)](https://www.youtube.com/watch?v=_R47uiMef7Y) | FreeAcademy AI | 7:33 | Não conferido. |
+|  | [Optimize Existing Blog Posts for GEO (Without Rewriting Everything)](https://www.youtube.com/watch?v=iypzmWZf2yU) | Rebecca Grace Designs | 19:46 | Não conferido. |
+|  | [How to do GEO as a Beginner (full AI SEO Course)](https://www.youtube.com/watch?v=dXhUg9Eu0xM) | Vasco's SEO Tips | 17:27 | Não conferido. |
 
-**O que observar:** o que cada autor manda fazer **dentro do texto** (início da resposta, títulos, listas, dados, fontes, perguntas e respostas), e o que é só "técnica de SEO" sem relação com texto. **Anote o que se repete em vários vídeos:** é o que você pode testar com mais segurança.
+### Onde os vídeos discordam (leia com atenção)
 
-## 7. Como achar as perguntas do público (mapa de perguntas)
+Os dois vídeos ⭐ de escrita **não dizem a mesma coisa** sobre um ponto:
 
-Seu `06-mapa-de-perguntas.md` não é lista de palavras-chave. É o que as pessoas **perguntam a uma IA**.
+- **Schema markup** (marcação técnica para buscadores): Kevin Roy diz que é **"super importante"**; Anand Iyer lista como **mito** que o schema aumente citações diretamente.
+- **llms.txt** (arquivo-resumo do site para IAs): Anand diz que não é necessário; Alex Moreau, citando o guia do Google, diz que **não ajuda nem atrapalha** a busca do Google, mas que é "um arquivo pequeno para agentes de IA".
+- **Números:** nenhum dos vídeos mostra a fonte dos percentuais que cita.
 
-| | Vídeo | Canal | Duração | Observação |
-|---|---|---|---|---|
-| ⭐ | [How to Find the Exact Prompts Your Buyers Are Using in ChatGPT Right Now](https://www.youtube.com/watch?v=QqNud-LnKac) | Infrasity | 3:09 | Curto; ponto de partida. |
-|  | [How To Find Prompts Searched By Customers & ChatGPT Volumes](https://www.youtube.com/watch?v=6zeFuJ19UNM) | Alex COLLINSEO | 6:31 | Desconfie de qualquer "volume exato de prompts": pergunte de onde o dado vem. |
-|  | [GEO Keyword Research and Tracking AI Search Results For Your Main Keywords](https://www.youtube.com/watch?v=dtlZTULGX4A) | Surfside PPC | 12:48 | Pesquisa de palavra-chave adaptada a GEO. |
-|  | [Webinar: Why Your GEO Strategy is Probably Wrong (And What Actually Works)](https://www.youtube.com/watch?v=l_vv9q6MxwU) | The Grow and Convert Marketing Show | 31:22 | **Visão crítica.** Pelo resumo, argumenta que práticas populares de GEO não funcionam sozinhas. Uma opinião a ser pesada, não um dado. |
+**Nenhum deles prova o que diz.** Para o seu Brain, a conclusão certa é marcar cada técnica contestada como **hipótese**, e dizer **como você testaria** (por exemplo, perguntando às IAs e vendo quem é citado, como no bloco "Para praticar sozinho"). Onde um vídeo cita um estudo (o paper de GEO, a documentação do Google), vá à fonte.
 
-## 8. Tom de voz e regras de escrita
+## 7. Perguntas, voz e regras
 
-| | Vídeo | Canal | Duração |
-|---|---|---|---|
-|  | [Como fazer o Claude escrever no seu tom de voz (sem prompt perfeito)](https://www.youtube.com/shorts/vOg7Q3vAmwc) (em português) | Tera | 0:45 |
+Não há vídeo que eu recomende com segurança para o seu `06-mapa-de-perguntas.md`: os que encontrei sobre "descobrir os prompts que as pessoas usam" são, na maioria, demonstrações de ferramentas pagas. Use o que os vídeos do bloco 6 já ensinam:
 
-Vídeo bem curto. A ideia que ele traz (dar à IA textos reais como referência de voz) é o que vai no seu `04-voz-e-regras.md`.
+- **Três tipos de pergunta para testar** (Anand Iyer): de **categoria** ("melhores X para Y"), de **comparação** ("A versus B") e **comerciais** ("vale a pena?", preço).
+- **Perguntas de follow-up** (Kevin Roy): olhe "as pessoas também perguntam" no Google para achar o que vem depois da primeira dúvida.
+- **Pergunte você mesmo às IAs** e anote as perguntas que elas sugerem e as fontes que citam (veja "Para praticar sozinho").
+
+Para **voz e regras** (`04-voz-e-regras.md`), a base é uma lista clara do que **pode** e do que **não pode** ser afirmado, mais alguns **textos reais** da própria empresa como referência de tom. Isso é método seu, não de vídeo.
+
+Opcional, sem conferência: [Webinar: Why Your GEO Strategy is Probably Wrong (And What Actually Works)](https://www.youtube.com/watch?v=l_vv9q6MxwU), The Grow and Convert Marketing Show, 31:22. Pelo resumo, é uma visão crítica de práticas populares de GEO.
 
 ---
 
